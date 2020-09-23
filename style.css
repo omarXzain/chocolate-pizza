@@ -1,6 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
+
+
+
+body{
+
+    width: 980px;
+    margin: 0 auto;
+}
+
 .h1x{
     font-family: 'Yellowtail', cursive;
 }
@@ -13,24 +22,21 @@
 }
 
 .icon1 {
-    position: absolute;
-    top: 6.2%;
-    left: 82%;
+    margin-right: 22px;
 }
 
-.icon2{
+/* .icon2{
     float: right;
     margin-top: -7.6%;
-}
+} */
 
 .h2h4{
     margin-left: 5%;
 }
 
 #logo{
-    position: absolute;
-    top: 5%;
-    left: 1.5%;
+    margin-top: -99px;
+    margin-bottom: 75px;
 }
 
 hr{
@@ -80,13 +86,14 @@ h1{
 }
 
 .form2{
-    margin-left: 40%;
+    margin-left: 56%;
 }
 
 .form1{
 
     position: absolute;
-    left: 9%;
+    left: 30%;
+    margin-top: 1%;
 }
 
 form {
@@ -99,6 +106,7 @@ li{
 }
 .vanessa{
     display: flex;
+    margin-top: -8%;
 
 }
 
@@ -106,20 +114,21 @@ li{
 
     font-weight: lighter;
     color: grey;
-    margin-left: 6%;
+    margin-left: 8%;
     margin-top: -1.5%;
 }
 
 button{
 
-    margin-left: 66%;
-    margin-top: -6%;
+    margin-left: 84%;
+    margin-top: -4%;
     background-color: rgb(219, 26, 26);
     padding: 2%;
     height: 50px;
     line-height: 5px;
     font-size: 18px;
     color: white;
+    margin-top: 4%;
 }
 .p2 {
     text-align: center;
@@ -140,6 +149,15 @@ button{
 
 }
 
-#spoon{
+.seven7Social{
+display: inline-flex;
+position: absolute;
+margin-left: 68%;
+top: 9%;
+left: -5%;
 
 }
+
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+  }
