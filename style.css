@@ -25,10 +25,6 @@ body{
     margin-right: 22px;
 }
 
-/* .icon2{
-    float: right;
-    margin-top: -7.6%;
-} */
 
 .h2h4{
     margin-left: 5%;
@@ -41,7 +37,7 @@ body{
 
 hr{
 
-    border:10px solid grey;
+    border:10px solid rgb(212, 209, 209);
     
 }
 h1{
@@ -53,6 +49,10 @@ h1{
 .h4p{
     font-weight: lighter;
     color: grey;
+}
+
+h3{
+    margin-left: 18px;
 }
 
 .print{
@@ -114,7 +114,7 @@ li{
 
     font-weight: lighter;
     color: grey;
-    margin-left: 8%;
+    margin-left: 9.3%;
     margin-top: -1.5%;
 }
 
@@ -146,7 +146,7 @@ button{
 #spoonX{
 
     text-align: center;
-
+    min-width: 0;
 }
 
 .seven7Social{
@@ -160,4 +160,12 @@ left: -5%;
 
 input[type=checkbox]:checked + label{
     text-decoration: line-through;
+  }
+
+  fieldset{
+    border-top: 1px solid #aaa;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
   }
